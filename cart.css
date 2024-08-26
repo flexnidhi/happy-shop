@@ -104,3 +104,11 @@ margin: 3rem;
         margin-left: 10px;
     }
 }
+@media (max-width:550px) {
+    .Search_item{
+        display: none;
+    }
+    .cart_logo{
+        margin-right: 83px;
+    }
+}
