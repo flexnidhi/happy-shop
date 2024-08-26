@@ -1,0 +1,106 @@
+/* nav bar css */
+.nav_Bar{
+    background-color:  #7d482deb;
+    position: fixed !important;
+    width: 100%;
+    z-index: 99999;
+}
+
+.cart_logo{
+    width: 41px;
+    margin-top: -4px
+}
+.search-box {
+    background-color: #fcfcfc6b;  
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input[type="text"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: calc(100% - 50px);
+}
+
+.search-box button {
+    background-color: #7d482df5;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.search-box button i {
+    color: #333;
+}
+
+.search-box input[type="text"]::placeholder {
+    color: brown;
+    opacity: 1; 
+}
+.num_count{
+    background-color: yellow;
+    position: absolute;
+    right: 81px;
+   
+    padding: 0px 7px;
+    border-radius: 32px;
+    top: 4px;
+}
+.navbar-brand{
+    margin-left: 72px;
+}
+/* starting cart container */
+
+.cart_heading{
+display: flex;
+justify-content: center;
+margin: 3rem;
+}
+.Top_Products{
+    font-size: 58px;
+    color: brown
+}
+/* hidden shoping cart css*/
+.shop_cart{
+    position: absolute;
+    background-color: rgb(120 22 22 / 56%);
+    width: 295px;
+    display: none;
+    right: 41px;
+    top: 69px;
+    color: white;
+    padding: 6px 2px;
+    font-size: 20px
+}
+.removeBtn{
+   background-color: #f7f735e3;
+    border: none;
+   border-radius:15px;
+   font-size:19px;
+}
+.empty_cart{
+    color: wheat;
+}
+
+/* footer container css */
+.footer_contain{
+    margin: 5rem !important;
+}
+@media (max-width:991px) {
+    .navbar_item {
+       display: none;
+    }
+}
+@media (max-width:609px) {
+    .Search_item{
+       width: 150px;;
+    }
+    .happy_shop {
+        margin-left: 10px;
+    }
+}
